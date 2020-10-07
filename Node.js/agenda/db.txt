@@ -1,0 +1,2 @@
+use agenda_db
+db.usuarios.insertMany([{ email: 'demo@mail.com', user: "demo", password: "123456"}, { email: 'jose@mail.com', user: "jose", password: "123456"}])
